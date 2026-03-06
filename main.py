@@ -14,8 +14,6 @@ class Client(discord.Client):
         self.channel_id = channel_id
 
     async def on_ready(self):
-        # print("HEllo")
-        # logger.info("Bot is ready")
         print(f"{self.user.name} is ready")
 
     async def setup_hook(self):
